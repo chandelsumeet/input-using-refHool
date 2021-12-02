@@ -3,12 +3,13 @@
   grid-template-rows: 120px 120px;
 }
 input {
-  padding: 20px;
-  font-size: 20px;
+  font-size: 40px;
   outline: none;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   border: 2px solid #3498db;
   border-radius: 5px;
+  width: 200px;
+  text-align: center;
 }
 
 input:focus {
@@ -16,7 +17,7 @@ input:focus {
   background-color: #fff;
   border-color: #86b7fe;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  box-shadow: 0 0 0 7px rgb(13 110 253 / 25%);
 }
 .input-box {
   display: grid;
@@ -33,10 +34,11 @@ input:focus {
   padding: 10px 25px;
   font-size: 20px;
   border-radius: 5px;
+  font-size: 30px;
 }
 .btn-submit:focus {
   color: #212529;
   background-color: #fff;
   border-color: #86b7fe;
-  box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
+  box-shadow: 0 0 0 7px rgb(49 132 253 / 50%);
 }
